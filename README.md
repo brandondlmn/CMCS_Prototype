@@ -63,7 +63,7 @@ CMCS_Prototype
 
 2. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/CMCS_Prototype.git
+   git (https://github.com/brandondlmn/CMCS_Prototype)
    cd CMCS_Prototype
 
 Open and Run:Open CMCS_Prototype.sln in Visual Studio 2022.
