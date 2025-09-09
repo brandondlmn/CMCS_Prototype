@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Submit Claim";
+}
+<h2>Submit New Claim</h2>
+<form>
+    <div class="mb-3">
+        <label class="form-label">Month</label>
+        <select class="form-select">
+            <option>January</option>
+            <option>February</option>
+            <option>March</option>
+            <option>April</option>
+             <option>May</option>
+            <option>June</option>
+            <option>July</option>
+             <option>August</option>
+            <option>September</option>
+            <option>October</option>
+            <option>Novemeber</option>
+            <option>December</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Year</label>
+        <input type="number" class="form-control" placeholder="e.g., 2025" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Hours Worked</label>
+        <input type="number" class="form-control" placeholder="e.g., 40" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Total Amount</label>
+        <input type="text" class="form-control" readonly value="Calculated" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Document Type</label>
+        <select class="form-select">
+            <option>Timesheet</option>
+            <option>Invoice</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Upload Document</label>
+        <input type="file" class="form-control" accept=".pdf,.jpg,.png" />
+    </div>
+    <button type="submit" class="btn btn-primary">Submit Claim</button>
+</form>

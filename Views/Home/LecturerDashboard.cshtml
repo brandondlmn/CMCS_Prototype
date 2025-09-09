@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Lecturer Dashboard";
+}
+<h2>Lecturer Dashboard</h2>
+<div class="alert alert-info">Welcome, Lecturer! View or submit claims.</div>
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Submit New Claim</h5>
+                <a href="/Claim/Submit" class="btn btn-primary">Submit Claim</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Upload Document</h5>
+                <input type="file" class="form-control" />
+                <button class="btn btn-secondary mt-2">Upload</button>
+            </div>
+        </div>
+    </div>
+</div>
+<h3>Claim Statuses</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Month</th>
+            <th>Hours</th>
+            <th>Total</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>September 2025</td>
+            <td>40</td>
+            <td>R5000</td>
+            <td>Pending</td>
+        </tr>
+    </tbody>
+</table>
