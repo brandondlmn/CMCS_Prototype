@@ -77,5 +77,5 @@ Verify Pages:Navigate to:/ (Login)
 /Claim/Submit
 /Claim/Reports
 
-Confirm amounts display as R500 and layouts are responsive.
+Confirm amounts display as R5000 and layouts are responsive.
 
